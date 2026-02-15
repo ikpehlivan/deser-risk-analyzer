@@ -2,7 +2,7 @@
 
 
 
-This folder contains \*\*safe, non-malicious\*\* sample inputs and usage examples for the Deserialization Risk Analyzer.
+This folder contains **safe, non-malicious** sample inputs and usage examples for the Deserialization Risk Analyzer.
 
 
 
@@ -54,7 +54,7 @@ Example:
 
 \### 2) Safe “Format Header” Demonstrations (Optional)
 
-If you want to demonstrate Java native serialization detection \*\*without weaponization\*\*:
+If you want to demonstrate Java native serialization detection **without weaponization**:
 
 
 
@@ -62,7 +62,7 @@ If you want to demonstrate Java native serialization detection \*\*without weapo
 
 &nbsp; - `AC ED 00 05`
 
-\- Keep it as a tiny \*\*header-only\*\* example and clearly label it.
+\- Keep it as a tiny **header-only** example and clearly label it.
 
 
 
@@ -72,7 +72,7 @@ Example:
 
 
 
-\*\*Important:\*\* Avoid adding real serialized objects or gadget-chain-like data.
+**Important:** Avoid adding real serialized objects or gadget-chain-like data.
 
 
 
