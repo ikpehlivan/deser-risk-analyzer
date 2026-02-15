@@ -59,7 +59,7 @@ This tool helps security engineers and pentesters quickly:
 
 &nbsp; - .NET BinaryFormatter-like indicator detection (heuristic markers)
 
-\- **Rule-based indicator matching (YAML)\*\*
+\- **Rule-based indicator matching (YAML)**
 
 &nbsp; - Add new indicators without changing code
 
