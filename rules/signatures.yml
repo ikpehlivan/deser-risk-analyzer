@@ -1,0 +1,5 @@
+indicators:
+  - title: "Potential gadget-chain related marker"
+    needle: "TemplatesImpl"
+    severity: "high"
+    recommendation: "If reachable, review type restrictions and eliminate unsafe deserialization."
