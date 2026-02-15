@@ -1,20 +1,19 @@
 <p align="center">
-
-&nbsp; <img src="assets/logo.png" width="220" alt="Deserialization Risk Analyzer Logo">
+<img src="assets/logo.png" width="220" alt="Deserialization Risk Analyzer Logo">
 
 </p>
 
 
 
-\# Deserialization Risk Analyzer (Java / .NET)
+\# Deserialization Risk Analyzer (Java/.NET)
 
 
 
-A lightweight CLI tool that performs \*\*safe, non-exploitative\*\* analysis of inputs to identify potential \*\*unsafe deserialization\*\* patterns (Java native serialization / .NET BinaryFormatter-like data) and produces structured security reports.
+A lightweight CLI tool that performs **safe, non-exploitative** analysis of inputs to identify potential **unsafe deserialization** patterns (Java native serialization/.NET BinaryFormatter-like data) and produces structured security reports.
 
 
 
-> This project is intentionally \*\*defensive\*\*: it does \*\*not\*\* generate exploit payloads.
+> This project is intentionally **defensive**: it does **not** generate exploit payloads.
 
 
 
@@ -54,23 +53,23 @@ This tool helps security engineers and pentesters quickly:
 
 
 
-\- \*\*Format detection (heuristic)\*\*
+\- **Format detection (heuristic)**
 
 &nbsp; - Java native serialization stream header detection (`AC ED 00 05`)
 
 &nbsp; - .NET BinaryFormatter-like indicator detection (heuristic markers)
 
-\- \*\*Rule-based indicator matching (YAML)\*\*
+\- **Rule-based indicator matching (YAML)\*\*
 
 &nbsp; - Add new indicators without changing code
 
-\- \*\*Risk rating\*\*
+\- **Risk rating**
 
-&nbsp; - `low / medium / high` (based on findings)
+&nbsp; - `low/medium/high` (based on findings)
 
-\- \*\*Reports\*\*
+\- **Reports**
 
-&nbsp; - JSON output for automation / evidence
+&nbsp; - JSON output for automation/evidence
 
 &nbsp; - Clean terminal summary
 
